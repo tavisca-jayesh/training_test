@@ -10,7 +10,7 @@ namespace MarkupCalculation
     {
         public List<Itinerary> CalculateMarkup(Itinerary published, List<Itinerary> discounted)
         {
-            throw new NotImplementedException();
+            return null;
         }
     }
 }

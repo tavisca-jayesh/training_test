@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessRulesImpl.cs" />
     <Compile Include="Itinerary.cs" />
     <Compile Include="MarkupManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
