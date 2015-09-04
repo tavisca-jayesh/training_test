@@ -49,7 +49,7 @@
     function main() {
         jQuery(document).ready(function ($) {
             //default stock exchange
-            var stockExchangeName = "Nifty";
+            var stockExchangeName = "nifty";
 
             var initTabContent = function (stockExchangeName) {
                 //Header
@@ -88,7 +88,7 @@
                 mainDiv.appendChild(percentChange);
                 percentChange.innerHTML = "initValue";//"The percentage Changed Value from API";
 
-                stockExchangeValues(stockExchangeName);
+                
             }
 
             var renderTabContent = function (stockExchangeValues) {
@@ -181,6 +181,7 @@
 
             //initialize the Widget
             initTabContent(stockExchangeName);
+            stockExchangeValues(stockExchangeName);
             //show function here
             $(".nav-tabs a").click(function () {
                 console.log(this); //delete this line later
