@@ -8,7 +8,7 @@ namespace MarkupCalculation
 {
     public class BusinessRulesTests
     {
-        public static bool IsFewerStops(Itinerary published,Itinerary element)
+        public static bool IsFewerStops(Itinerary published, Itinerary element)
         {
             var _ret_val = false;
             if (published == null || element == null)
