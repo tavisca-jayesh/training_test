@@ -1,0 +1,39 @@
+﻿Typical travel agencies sell two types of rates. Regular (the public rate on the airline website) or discounted (specially negotiated rate given to the agency). 
+Discounted rates are then marked up appropriately before being sold.  A US based travel agency Acme Travel has recently signed up a new partner SkyTravel. 
+SkyTravel has a high number of net rate contracts with airlines offering discounted rates for domestic travel. Acme travel intends to sell these fares on their 
+website. 
+
+To maximize their yield, they want to ensure that their markup should be as high as possible without making it more expensive than the regular fare for a similar itinerary.
+Since a particular set of search results may contain multiple discounted rates matching a particular published rate, they want to ensure that each rate is marked up 
+based on its potential value to the customer. 
+
+The following business rules are available - 
+
+1. Customers prefer flights with fewer stops.
+2. Shorted flights are better than longer ones.
+3. Most customers would prefer flights with shorter layovers.
+4. Acme has to pay their credit card company 10 USD per booking. So they need to ensure that their markup should atleast be more than 10 USD.
+5. Academic studies have shown that price differences are not relevant unless the difference is more than 15 USD.
+6. It is not necessary that a discounted rate may always be lesser than the corresponding published rate.
+
+Based on these rules, you are required to build a markup calculation component which - 
+a. Would be given a publised itinerary along with a list of similar discounted itineraries.
+b. You need to calculate the markup to be applied to be base rate for each discounted itinerary.
+c. Return the final list of discounted itineraries (with markups) without any itinerary which are not financially viable (implying that the markup makes the rate 
+more expensive than the published rate or violates any of the above business rules.)
+
+
+The solution would be evaluated on the following criteria - 
+
+1. Correctly solving the problem.
+2. Design.
+3. Maintainability.
+4. Testing
+
+Other considerations:
+- Feel free to add required fields or methods to existing classes or implement new ones as required.
+- In cases where you need a database, you can use an inmemory object to simulate the database. 
+- Where configuration data is needed, create a constant representative test sample of your own to use.
+- When in doubt, ask for help.
+- Ensure your code is being committed regularly. Do not push to github untill you are ready to submit.
+- All solutions must included test cases to prove that the business problem is actually solved.
